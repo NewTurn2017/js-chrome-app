@@ -1,0 +1,76 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+::placeholder {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+#greeting {
+  font-family: 'Staatliches', cursive;
+
+  font-size: 2em;
+  color: #f1c164;
+}
+input {
+  width: 300px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.35;
+  width: 300px;
+  height: 50px;
+  align-self: center;
+}
+input:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 10px 0 rgb(255, 251, 0);
+}
+
+li {
+  list-style-type: '\1F44D';
+}
+
+#deleteButton {
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 30px;
+}
+
+#clock {
+  font-family: 'Staatliches', cursive;
+  align-self: flex-end;
+  font-size: 3em;
+  text-align: center;
+  color: #f1c164;
+  margin: 0;
+}
+
+#weather {
+  font-family: 'Staatliches', cursive;
+  align-self: flex-end;
+  color: #f1c164;
+}
+
+#quote {
+  font-family: 'Staatliches', cursive;
+  color: #f1c164;
+  justify-self: flex-end;
+}
+
+#todo-list {
+  padding: 5px 0px 5px 5px;
+  font-family: 'Staatliches', cursive;
+  font-size: 2em;
+  margin-top: 0px;
+  color: #f1c164;
+}

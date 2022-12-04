@@ -1,0 +1,27 @@
+{
+  "editor.tokenColorCustomizations": {
+    "[Material Theme Lighter High Contrast]": {
+      "textMateRules": [
+        {
+          "scope": ["variable", "foreground"],
+          "settings": {
+            "foreground": "#2C2C2C"
+          }
+        },
+        {
+          "scope": "string",
+          "settings": {
+            "foreground": "#00416A"
+          }
+        },
+        {
+          "scope": "comment",
+          "settings": {
+            "foreground": "#FF9900"
+          }
+        }
+      ]
+    }
+  },
+  "liveServer.settings.port": 5501
+}
