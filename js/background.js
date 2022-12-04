@@ -11,6 +11,6 @@ const images = [
 ]
 const chosenImage = images[Math.floor(Math.random() * images.length)]
 
-const bgImageUrl = `/img/${chosenImage}`
+const bgImageUrl = `img/${chosenImage}`
 console.log(bgImageUrl)
 document.body.style.backgroundImage = `url(${bgImageUrl})`
